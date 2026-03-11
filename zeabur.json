@@ -1,0 +1,13 @@
+{
+  "build": {
+    "commands": [
+      "pip install -r requirements.txt",
+      "cd apps/dsa-web && npm install && npm run build",
+      "cd ../.."
+    ]
+  },
+  "run": {
+    "command": "python main.py --webui --port $PORT",
+    "port": "$PORT"
+  }
+}
