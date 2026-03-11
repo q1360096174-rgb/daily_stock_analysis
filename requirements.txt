@@ -61,3 +61,21 @@ jinja2>=3.1.0               # Jinja2 template engine for report rendering
 fastapi>=0.109.0            # 现代 Python Web 框架
 uvicorn[standard]>=0.27.0   # ASGI 服务器
 python-multipart>=0.0.6     # FastAPI File/Form upload support
+
+# 核心后端依赖
+fastapi>=0.104.1
+uvicorn>=0.24.0
+pandas>=2.1.4
+numpy>=1.26.2
+akshare>=1.10.48
+yfinance>=0.2.31
+python-dotenv>=1.0.0
+litellm>=1.40.0
+requests>=2.31.0
+jinja2>=3.1.2
+python-multipart>=0.0.6
+Pillow>=10.1.0
+openpyxl>=3.1.2
+scipy>=1.11.4
+ta>=0.11.0
+# 前端编译依赖（无需手动加，npm会处理）
